@@ -3,7 +3,6 @@ import { Link, Route, Switch, withRouter } from "react-router-dom";
 import { Layout, Form, Icon, message, Carousel, Input, Button, Checkbox } from 'antd';
 import { connect } from 'react-redux';
 const { Header, Content, Footer } = Layout;
-import MediaQuery from 'react-responsive';
 import Helmet from "react-helmet";
 import Cookie from 'react-cookies';
 //顶部导航 - mobile
